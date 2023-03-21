@@ -97,3 +97,35 @@ button{
 
 
 
+.boxes .contanier{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+
+.box{
+    flex: 1;
+    border-radius: 8px;
+    margin: 20px 10px;
+    padding: 15px;
+}
+
+.box img{
+    border:  solid dodgerblue;
+    border-radius: 10px;
+}
+
+@media(max-width: 768px){
+    .header .contanier{
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .boxes .contanier{
+        display: block;
+        text-align: center;
+    }
+}
+
