@@ -129,3 +129,58 @@ button{
     }
 }
 
+.quote{
+    text-align: center;
+    background-color: gainsboro;
+    padding: 50px;
+}
+
+
+.quote .vc{
+    font-style: italic;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: gray;
+}
+
+.quote .mee{
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cta .container{
+    display: flex;
+    justify-content: center;
+}
+
+.bb{
+    background-color: dodgerblue;
+    margin-top: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 390px;
+}
+
+.bb h1{
+    color: white;
+}
+
+
+.bb p{
+    color: white;
+}
+
+
+.bb button{
+    float: right;
+    border: solid white;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
